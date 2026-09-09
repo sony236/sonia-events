@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SONIA Events | Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: 0;
+            color: white;
+            font-size: 22px;
+        }
+
+        @media (max-width: 800px) {
+            .menu-toggle {
+                display: block;
+            }
+
+            .links.open {
+                display: flex;
+                position: absolute;
+                top: 68px;
+                left: 0;
+                right: 0;
+                flex-direction: column;
+                background: #0a0e22ef;
+                border: 1px solid #ffffff18;
+                border-radius: 18px;
+                padding: 14px;
+                backdrop-filter: blur(20px);
+            }
+        }
+
+        nav {
+            position: sticky;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+
+        <a class="logo" href="index.html">
+            <span class="brandmark">✦</span>
+            SONIA<span>.</span>
+            <small>EVENTS &amp; EXPERIENCES</small>
+        </a>
+
+        <button class="menu-toggle" aria-label="Open menu">
+            ☰
+        </button>
+
+        <div class="links">
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="events.html">Events</a>
+            <a href="gallery.html" class="active">Gallery</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+
+        </div>
+
+        <a class="btn" href="contact.html">
+            Get a Quote
+        </a>
+
+    </nav>
+
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Page Header -->
+        <div class="pagehead container">
+
+            <span class="eyebrow">
+                Visual Stories
+            </span>
+
+            <h1>
+                Moments worth
+                <span class="gradient">framing.</span>
+            </h1>
+
+            <p>
+                A glimpse into the worlds we create.
+            </p>
+
+        </div>
+
+
+        <!-- Gallery -->
+        <section>
+
+            <div class="container gallery">
+
+                <img
+                    src="marriage.jpg"
+                    alt="Event celebration"
+                >
+
+                <img src="venue.jpg"
+                    alt="Event decoration"
+                >
+
+                <img
+                src ="images.jpg"
+                    alt="Live event"
+                >
+
+                <img src="music.jpg"
+                    alt="Outdoor celebration"
+                >
+
+                <img
+                src="luxury.webp"
+                    alt="Wedding celebration"
+                >
+
+                <img
+                                    src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?auto=format&fit=crop&w=900&q=80"
+
+    
+                    alt="Event party"
+                >
+
+                <img 
+                src="annual.webp"
+                    alt="Wedding event"
+                >
+
+                <img
+                    src="https://images.unsplash.com/photo-1507504031003-b417219a0fde?auto=format&fit=crop&w=900&q=80"
+                    alt="Destination event"
+                >
+
+                <img
+                src="baby.jpg"
+                    alt="Celebration"
+                >
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="container foot">
+
+            <!-- Brand -->
+            <div>
+
+                <div class="logo">
+                    <span class="brandmark">✦</span>
+                    SONIA<span>.</span>
+                </div>
+
+                <p>
+                    Modern event management for unforgettable moments.
+                </p>
+
+            </div>
+
+
+            <!-- Explore -->
+            <div>
+
+                <b>Explore</b>
+
+                <p>
+                    <a href="about.html">About Us</a><br>
+                    <a href="services.html">Services</a><br>
+                    <a href="gallery.html">Gallery</a><br>
+                    <a href="blog.html">Blog</a>
+                </p>
+
+            </div>
+
+
+            <!-- Contact -->
+            <div>
+
+                <b>Contact</b>
+
+                <p>
+                    +91 98765 43210<br>
+                    hello@soniaevents.in<br>
+                    Hyderabad, India
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Copyright -->
+        <div
+            class="container"
+            style="
+                border-top: 1px solid #ffffff12;
+                margin-top: 30px;
+                padding-top: 18px;
+                color: #6f7690;
+                font-size: 11px;
+            "
+        >
+            © <span class="year"></span> SONIA Events.
+            All rights reserved.
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
